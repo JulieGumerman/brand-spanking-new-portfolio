@@ -307,6 +307,13 @@ footer {
     border-bottom: none;
   }
 
+  .thirds {
+			display: flex;
+ 			flex-direction: column;
+  		justify-content: center;
+ 			align-items: center;
+  }
+
 }
 
 @media only screen and (min-width: 900px) {
