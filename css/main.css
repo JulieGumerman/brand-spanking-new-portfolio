@@ -133,7 +133,7 @@ main {
 }
 
 .sample {
-  border-bottom: #009999 1px solid;
+  border-bottom: #464743 1px solid;
 }
 
 
@@ -141,7 +141,6 @@ main {
 .halves-icon-links {
   display: flex;
   justify-content: center;
-  border: 1px red solid;
 }
 
 i {
@@ -157,16 +156,16 @@ i:hover {
 
 }
 
-.contact-me {
-  display: flex;
-  flex-wrap: wrap;
-  border: 5px salmon solid;
+.contact-info {
+
+  border-top: 1px solid #009999;
 
 }
 
 .full {
     width: 100%;
 }
+
 footer {
   background: #009999;
   text-align: center;
@@ -274,13 +273,22 @@ footer {
 
 
   header {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
-    background-color: red;
+    background-image: url("../img/hero-background.png");
+   	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
   }
 
   h1 {
     color: #009999;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-size: 35px;
   }
 
   .sub-title {
@@ -303,9 +311,6 @@ footer {
     width: 48%;
   }
 
-  .sample {
-    border-bottom: none;
-  }
 
   .thirds {
 			display: flex;
@@ -321,8 +326,19 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
+  header {
+    height: 80vh;
+  }
   .content-wrapper {
     width: 60%;
+  }
+
+  h1 {
+    height: 60px;
+  }
+
+  h2 {
+    height: 40px;
   }
 }
 
