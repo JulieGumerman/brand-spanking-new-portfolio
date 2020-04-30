@@ -326,6 +326,15 @@ footer {
     width: 80%
   }
 
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 45%;
+  }
+
   .whole {
     width: 100%;
     display: flex;
@@ -382,6 +391,10 @@ footer {
 
   h2 {
     height: 40px;
+  }
+
+  .skill {
+    width: 30%;
   }
 }
 
