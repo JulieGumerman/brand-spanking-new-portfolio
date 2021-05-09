@@ -104,18 +104,19 @@ textarea {
 
 
 header {
-  background: #009999;
+  background: #17181a;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 40vh;
-  color: #464743;
-  border-bottom: #a7c265 solid 3px;
+  color: #17181a;
+  border-bottom: #9df2e4 solid 3px;
 }
 
 main {
-  color: #464743;
+  color: #17181a;
+  background: #9a9ca1;
   display: flex;
   justify-content: center;
 }
@@ -125,7 +126,7 @@ main {
 }
 
 .top {
-  border-bottom: solid 1px #009999;
+  border-bottom: solid 1px #9df2e4;
 }
 
 .skill-list {
@@ -133,11 +134,11 @@ main {
 }
 
 .sample {
-  border-bottom: #464743 1px solid;
+  border-bottom: #17181a 1px solid;
 }
 
 .key-cons {
-  border: 1px #464743 solid;
+  border: 1px #17181a solid;
 }
 
 
@@ -148,13 +149,13 @@ main {
 }
 
 i {
-  color: #a7c265;
+  color: #bdfcc8;
   font-size: 30px;
   padding: 5px;
 }
 
 i:hover {
-  background: #009999;
+  background: #9df2e4;
   color: white;
   border-radius: 5px;
 
@@ -185,7 +186,7 @@ figure  img {
 
 .contact-info {
 
-  border-top: 1px solid #009999;
+  border-top: 1px solid #9df2e4;
 
 }
 
@@ -194,12 +195,12 @@ figure  img {
 }
 
 footer {
-  background: #009999;
+  background: #17181a;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 20px;
-  color: #464743;
+  color: #9df2e4;
 
   }
 
@@ -300,18 +301,12 @@ footer {
 
 
   header {
-    height: 70vh;
     width: 100%;
-    background-image: url("../img/hero-background.png");
-   	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: center;
   }
 
   h1 {
-    color: #009999;
+    color: #9df2e4;
     font-size: 50px;
-    padding-top: 20px;
   }
 
   h2 {
@@ -319,7 +314,7 @@ footer {
   }
 
   .sub-title {
-    color: #a7c265;
+    color: #bdfcc8;
   }
 
   .content-wrapper {
@@ -379,7 +374,6 @@ footer {
 
 @media only screen and (min-width: 1200px) {
   header {
-    height: 80vh;
   }
   .content-wrapper {
     width: 60%;
