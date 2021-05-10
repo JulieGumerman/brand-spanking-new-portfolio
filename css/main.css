@@ -109,14 +109,22 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
   color: #17181a;
-  border-bottom: #9df2e4 solid 3px;
+  border-bottom: #158794 solid 3px;
+}
+h1 {
+  color: #158794;
+  margin-bottom: 25px; 
+}
+
+h2 {
+  color: #5ca15f;
+  margin-bottom: 25px;
 }
 
 main {
   color: #17181a;
-  background: #9a9ca1;
+  background: #e3e3e3;
   display: flex;
   justify-content: center;
 }
@@ -126,7 +134,7 @@ main {
 }
 
 .top {
-  border-bottom: solid 1px #9df2e4;
+  border-bottom: solid 1px #5ca15f;
 }
 
 .skill-list {
@@ -149,13 +157,13 @@ main {
 }
 
 i {
-  color: #bdfcc8;
+  color: #5ca15f;
   font-size: 30px;
-  padding: 5px;
+  padding: 10px;
 }
 
 i:hover {
-  background: #9df2e4;
+  background: #158794;
   color: white;
   border-radius: 5px;
 
@@ -177,6 +185,7 @@ figure {
 
 figure  img {
       max-width: 100%;
+      max-height: 100%;
 
   }
 
@@ -186,7 +195,7 @@ figure  img {
 
 .contact-info {
 
-  border-top: 1px solid #9df2e4;
+  border-top: 1px solid #5ca15f;
 
 }
 
@@ -200,7 +209,7 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 20px;
-  color: #9df2e4;
+  color: #158794;
 
   }
 
@@ -300,12 +309,13 @@ footer {
 @media only screen and (min-width: 768px) {
 
 
+
   header {
     width: 100%;
   }
 
   h1 {
-    color: #9df2e4;
+    color: #158794;
     font-size: 50px;
   }
 
@@ -313,22 +323,25 @@ footer {
     font-size: 35px;
   }
 
+
+
   .sub-title {
-    color: #bdfcc8;
+    color: #5ca15f;
+    padding-bottom: 30px;
   }
 
   .content-wrapper {
     width: 80%
   }
 
-  .skill-list {
+  /* .skill-list {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
 
-  .skill {
+  /* .skill {
     width: 45%;
-  }
+  } */
 
   .whole {
     width: 100%;
@@ -338,6 +351,17 @@ footer {
     justify-content: space-between;
   }
 
+  #portfolio {
+    padding-bottom: 5px !important;
+  }
+
+  #top-title {
+    margin-top: 0px !important;
+    padding-top: 0px !important; 
+  }
+  .work-samples-header {
+    margin-bottom: 0px;
+  }
   .halves {
     width: 48%;
     padding-top: 10px;
@@ -384,12 +408,13 @@ footer {
   }
 
   h2 {
+
     font-size: 40px;
   }
 
-  .skill {
+  /* .skill {
     width: 30%;
-  }
+  } */
 }
 
 @media print,
